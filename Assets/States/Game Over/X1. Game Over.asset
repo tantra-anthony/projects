@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 978ac7d3399bfda459c316b5e8d29f0b, type: 3}
+  m_Name: X1. Game Over
+  m_EditorClassIdentifier: 
+  storyText: 'A CakeBread abomination strikes its starchy glutenized arms on your
+    chest. You feel weak and fall on the ground, lifeless.
+
+
+    1. Transport back to "the Room"
+
+    2. Merge with CakeBread'
+  nextStates:
+  - {fileID: 11400000, guid: 921077daaa5b1cc4ab12169e94aeb166, type: 2}
+  - {fileID: 11400000, guid: 64cfbfcae46452e468c990c4648a786a, type: 2}

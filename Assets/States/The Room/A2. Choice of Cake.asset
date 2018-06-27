@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 978ac7d3399bfda459c316b5e8d29f0b, type: 3}
+  m_Name: A2. Choice of Cake
+  m_EditorClassIdentifier: 
+  storyText: 'You pick up the cake from the table. You hear a loud scream from above
+    and thuds all around the room. The bread on the table starts to rot in an untimely
+    manner.
+
+
+    What do you do?
+
+
+    1. Throw the cake to the bread
+
+    2. Take a massive bite of the cake'
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 4b7eef796dbe8ff40be87ecbfea3cfe3, type: 2}
